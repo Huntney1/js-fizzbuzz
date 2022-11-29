@@ -1,39 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: navy;
 }
 
-.continer{
+.container {
     background-color: white;
     margin: 5rem auto;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 640px;
 }
 
-.square{
+.row {
+    width: 40rem;
+    height: 40rem;
+}
+
+.square {
     height: 65px;
     width: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 
-.square-coral{
-background-color: coral;
+.square-coral {
+    background-color: coral;
 }
 
-.square-dodgerblue{
+.square-dodgerblue {
     background-color: dodgerblue;
 }
 
-.square-violet{
-    background-color:violet
+.square-violet {
+    background-color: violet
 }
