@@ -14,13 +14,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 640px;
+    max-width: 650px;
 }
 
-.row {
+/* .row {
     width: 40rem;
     height: 40rem;
-}
+} */
 
 .square {
     height: 65px;
@@ -28,12 +28,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
     
-
 }
 
 .square-coral {
-    background-color: coral;
+    background-color: rgb(201, 104, 243) ;
 }
 
 .square-dodgerblue {
@@ -42,4 +42,8 @@ body {
 
 .square-violet {
     background-color: violet
+}
+
+.square-lime{
+    background-color: aqua;
 }
