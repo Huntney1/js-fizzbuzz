@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: navy;
+}
+
+.continer{
+    background-color: white;
+    margin: 5rem auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 640px;
+}
+
+.square{
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.square-coral{
+background-color: coral;
+}
+
+.square-dodgerblue{
+    background-color: dodgerblue;
+}
+
+.square-violet{
+    background-color:violet
+}
