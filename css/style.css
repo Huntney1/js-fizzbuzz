@@ -5,7 +5,15 @@
 }
 
 body {
-    background-color: navy;
+    background-color: blue;
+}
+
+h1{
+    text-align: center;
+    margin: 1% 0% 0%;
+    position: relative;
+    top: 37px;
+    font-size: 4em;
 }
 
 .container {
